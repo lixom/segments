@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Segments &middot; jQuery plugin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        width: 800px;
+      }
+
+
+    </style>
+
+    <link href="../src/segments.css" rel="stylesheet">
+  </head>
+
+  <body>
+		<h2>Segments</h2>      
+			<div id="segments">
+				<div class="segment">
+					<p class="headline">Vilken Volvo passar dig?</p>
+					<img src="img/car1.jpg" />
+				</div>					
+				<div class="segment">
+					<p class="caption"><a href="http://www.volvocars.com/se/all-cars/volvo-v40-cross-country/pages/default.aspx">Volvo V40 Cross Country >></a></p>
+					<img src="img/car2.jpg" />
+				</div>
+				
+				<div class="segment">
+					<p class="caption"><a href="http://www.volvocars.com/se/all-cars/volvo-v40-cross-country/pages/default.aspx">Volvo V40 Cross Country >></a></p>
+					<img src="img/car3.jpg" />
+				</div>
+				
+				<div class="segment">
+					<p class="caption"><a href="
+http://www.volvocars.com/se/all-cars/volvo-xc70/pages/default.aspx
+">Volvo Volvo XC70 >></a></p>
+					<img src="img/car4.jpg" />
+				</div>
+
+			</div>
+
+        
+    <script src="jquery.js"></script>
+    <script src="../src/segments.jquery.js"></script>
+    <script>
+    $(document).ready(function() {
+			// Page has loaded
+			$('#segments').segments({
+				width : 300
+			});
+		});
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,59 @@
+/**
+ * Import base style
+ */
+//@import "../mall/base.less";
+ 
+/**
+ * Here comes specific style for a certain test program.
+ */
+ 
+div#segments {
+
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: inline-block;
+} 
+ 
+.segment {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.segment .headline {
+	font-size: 24px;
+	position:  absolute;
+	top: 20px;
+	left: 20px;
+	color: white;
+	background-color:rgba(48, 90, 150, 0.75);
+	padding: 10px 20px;
+}
+
+.segment .caption {
+	font-size: 18px;
+	position:  absolute;
+	color: white;
+	padding: 0px;
+	text-align: center;
+	background-color: none;
+	display: inline-block;
+	bottom: 5px;
+	text-align: center;
+}
+
+.segment .caption a {
+	color: white;
+	text-shadow: 1px 1px 100px black;
+	text-decoration: none;
+}
+
+.segment img {
+	border: none;
+	max-width: none;
+	vertical-align: baseline;
+}
