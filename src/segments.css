@@ -1,12 +1,7 @@
 /**
- * Import base style
+ * Segments.css
  */
-//@import "../mall/base.less";
- 
-/**
- * Here comes specific style for a certain test program.
- */
- 
+
 div#segments {
 
 	margin: 0;
