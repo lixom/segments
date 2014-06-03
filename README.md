@@ -1,4 +1,4 @@
-segments
+Segments jQuery plugin
 ========
 
-Segments
+See http://www.student.bth.se/~seem13/javascript/segments-plugin/index.html for instructions
